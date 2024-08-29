@@ -1,0 +1,96 @@
+.about {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .aboutContent {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .aboutContent p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .skillItem svg {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skillItem span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .interests {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .interests h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .interests ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .interests li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .interests li svg {
+    margin-right: 0.5rem;
+    color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .skills {
+      flex-direction: column;
+    }
+  
+    .skillItem {
+      margin-bottom: 1rem;
+    }
+  }
