@@ -111,10 +111,11 @@ const CV = () => {
         </div>
 
         <div className={styles.downloadCV}>
-          <a href="/cvofbabs.pdf" className={styles.downloadButton} download>
-            <Download className={styles.icon} />
-            Télécharger mon CV complet
-          </a>
+        <a href="/cvofbabs_v2.pdf?v=2" className={styles.downloadButton} download>
+  <Download className={styles.icon} />
+  Télécharger mon CV complet
+</a>
+
         </div>
       </div>
     </section>
